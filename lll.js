@@ -24,7 +24,7 @@ var ll = function(document, window, soffset, imgs){
 	var imgsData = [];  		// Array of img pointers and state
 	var innerHeight = window.innerHeight;
 
-	//imgs = document.querySelectorAll("img[data-lsrc]");
+	
 	console.log("Running script")
 	if(imgs) {
 		for(i=0; i < imgs.length; i++) {
